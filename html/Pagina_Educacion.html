@@ -22,24 +22,87 @@
         </h3>
     </header>
     <nav>
-      <ul>
-        <li><a href="../index.html">Pagina Principal</a></li>
-        <li><a href="Pagina_Experiencia.html">Experiencia Profesional</a></li>
-      </ul>
+      <a href="../index.html">Inicio</a> ||
+      <a href="Pagina_Experiencia.html">Experiencia Profesional</a>
     </nav>
     <section>
-      educacion -- titulo h2
-      <article class="">
-      tabla de 4 x 3 con año,institucion,lugar, ¿culmino?
-      </article>
-      <article class="">
-        formulario agregar estudios con:
-        lista desplegable del año, caja de entrada de texto para la institucion con validacion de cmapo requerido, y caja de entrada del Lugar
-        boton enviar
+      <h2>Educación</h2>
+      <article>
+        <table border="1", cellspacing="0", cellpadding="10">
+          <thead>
+            <tr>
+              <th>Año Finalizacion</th>
+              <th>Institucion</th>
+              <th>Lugar</th>
+              <th>Titulo</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2010</td>
+              <td>Inst. Jose Manuel Estrada</td>
+              <td>General San Martin, La Pampa, Argentina</td>
+              <td>Bachiller en Cs. Sociales</td>
+              <td>SI</td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>NextUniversity</td>
+              <td>Bahia Blanca, Buenos Aires, Argentina</td>
+              <td>Diseño Web</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>Universidad Tecnologica Nacional</td>
+              <td>Bahia Blanca, Buenos Aires, Argentina</td>
+              <td>Lic. en Organizacion Industrial</td>
+              <td>NO</td>
+            </tr>
+          </tbody>
+        </table>
+      </article><br>
+      <article>
+        <form>
+          <fieldset>
+              <legend><h2>Agregar Estudios</h2></legend>
+              <label for="Año">Año Finalizado :</label>
+              <select>
+                <option>Seleccione el año</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+              </select><br><br>
+              <label for="Institucion">Institucion</label>
+              <input type="text" id="Institucion" required><br><br>
+              <label for="Lugar">Lugar</label>
+              <textarea name="name" rows="3" cols="40"></textarea><br><br>
+              <input type="submit" value="Enviar">
+          </fieldset>
+        </form>
       </article>
     </section>
     <footer>
-      info de contacto -- email, telefono, redes sociales
+      <h2>Informacion de Contacto</h2>
+      <ul>
+        <li>E-mail: <strong>juanmarb_19@hotmail.com</strong></li>
+        <li>Redes Sociales</li>
+          <ul>
+            <li><a href="https://www.instagram.com/juanma.bis/" target="_blank">Instagram</a>  <img src="../Imagenes/logo_insta.jpg" alt="logo instagram" width="25px" height="25px"></li>
+            <li><a href="https://www.facebook.com/Juanmarrrr" target="_blank">Facebook</a>   <img src="../Imagenes/logo_fb.png" alt="logo facebook" width="20px" height="20px"></li>
+          </ul>
+      </ul>
+      falta ancla inicio para volver al principio de la pagina
     </footer>
   </body>
 </html>
